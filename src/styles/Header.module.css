@@ -16,6 +16,13 @@
 
 .header p {
   margin-inline: auto;
+  margin-bottom: 40px;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 @media screen and (max-width: 900px) {

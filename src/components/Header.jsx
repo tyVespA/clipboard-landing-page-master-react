@@ -1,5 +1,6 @@
 import styles from "../styles/Header.module.css";
 import Logo from "../assets/images/logo.svg";
+import Button from "./Button";
 
 function Header() {
   return (
@@ -10,6 +11,10 @@ function Header() {
         Clipboard allows you to track and organize everything you copy.
         Instantly access your clipboard on all your devices.
       </p>
+      <section className={styles.cta}>
+        <Button style="variantOne">Download for iOS</Button>
+        <Button style="variantTwo">Download for Mac</Button>
+      </section>
     </header>
   );
 }
