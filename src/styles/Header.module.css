@@ -23,10 +23,16 @@
   display: flex;
   justify-content: center;
   gap: 20px;
+  padding-inline: 35px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 530px) {
   .header {
     background-image: url("../assets/images/bg-header-mobile.png");
+  }
+  .cta {
+    gap: 30px;
+    flex-direction: column;
+    /* align-items: center; */
   }
 }
