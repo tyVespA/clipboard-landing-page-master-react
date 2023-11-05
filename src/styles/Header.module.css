@@ -1,0 +1,25 @@
+.header {
+  background-image: url("../assets/images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header img {
+  margin-inline: auto;
+  margin-bottom: 50px;
+  padding-top: 100px;
+}
+
+.header h1 {
+  margin-bottom: 20px;
+}
+
+.header p {
+  margin-inline: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .header {
+    background-image: url("../assets/images/bg-header-mobile.png");
+  }
+}
