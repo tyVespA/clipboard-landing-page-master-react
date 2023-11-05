@@ -1,9 +1,10 @@
 .button {
   padding: 15px 35px;
-  border: transparent;
+  border: none;
   border-radius: 40px;
   color: white;
   font-weight: 600;
+  transition: filter 0.2s ease-in-out;
 }
 
 .variantOne {
@@ -11,7 +12,13 @@
   box-shadow: var(--strongCyan) 0px 14px 58px,
     rgba(0, 0, 0, 0.025) 0px 10px 10px;
 }
+
 .variantTwo {
   background-color: var(--lightBlue);
   box-shadow: var(--lightBlue) 0px 14px 58px, rgba(0, 0, 0, 0.025) 0px 10px 10px;
+}
+
+.variantOne:hover,
+.variantTwo:hover {
+  filter: brightness(1.1);
 }
