@@ -25,3 +25,10 @@
 .supercharge p {
   max-width: 30ch;
 }
+
+@media screen and (max-width: 1050px) {
+  .superchargeSection {
+    flex-direction: column;
+    margin-top: 70px;
+  }
+}
