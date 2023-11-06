@@ -12,18 +12,23 @@ function SectionOne() {
         iOS apps will help you organize everything.
       </p>
       <section className={styles.listSection}>
-        <img src={Computer} alt="computer" />
-        <h3>Quick Search</h3>
-        <p>
-          Easily search your snippets by content, category, web address,
-          application, and more.
-        </p>
-        <h3>iCloud Sync</h3>
-        <p>Instantly saves and syncs snippets across all your devices.</p>
-        <h3>Complete History </h3>
-        <p>
-          Retrieve any snippets from the first moment you started using the app.
-        </p>
+        <div className={styles.imageContainer}>
+          <img src={Computer} alt="computer" />
+        </div>
+        <div>
+          <h3>Quick Search</h3>
+          <p>
+            Easily search your snippets by content, category, web address,
+            application, and more.
+          </p>
+          <h3>iCloud Sync</h3>
+          <p>Instantly saves and syncs snippets across all your devices.</p>
+          <h3>Complete History </h3>
+          <p>
+            Retrieve any snippets from the first moment you started using the
+            app.
+          </p>
+        </div>
       </section>
     </>
   );

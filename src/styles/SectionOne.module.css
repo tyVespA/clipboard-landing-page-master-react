@@ -1,7 +1,8 @@
 .listSection img {
-  margin-top: 60px;
+  margin-top: 80px;
   margin-bottom: 50px;
   margin-inline: auto;
+  padding-inline: 30px;
 }
 
 .listSection h3 {
@@ -11,4 +12,29 @@
 
 .listSection p {
   margin-bottom: 40px;
+}
+
+@media screen and (min-width: 1090px) {
+  .listSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+  }
+  .imageContainer {
+    position: relative;
+    /* flex-basis: 1; */
+  }
+  .imageContainer img {
+    margin-left: -60px;
+    /* position: absolute; */
+    /* top: -300px; */
+    /* right: 500px; */
+  }
+  .listSection h3,
+  .listSection p {
+    text-align: start;
+    margin-left: 0;
+    max-width: 40ch;
+  }
 }
