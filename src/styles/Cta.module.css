@@ -5,3 +5,9 @@
   padding-inline: 35px;
   margin-top: 40px;
 }
+
+@media screen and (max-width: 530px) {
+  .cta {
+    flex-direction: column;
+  }
+}
