@@ -11,6 +11,7 @@
   align-items: center;
   margin-inline: auto;
   max-width: 1150px;
+  padding-inline: 30px;
 }
 
 .logoLinksContainer {
@@ -67,4 +68,31 @@
 
 .socialIcons svg:hover {
   fill: var(--strongCyan);
+}
+
+@media screen and (max-width: 930px) {
+  .footerContainer {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .logoLinksContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    /* justify-content: center; */
+  }
+  .footer ul {
+    padding-left: 0;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer ul > div {
+    gap: 15px;
+  }
+  .socialIcons {
+    gap: 40px;
+  }
 }
